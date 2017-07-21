@@ -1,0 +1,217 @@
+header,
+footer,
+main,
+section, 
+.image-overview {
+	display: inline-block;
+}
+
+.header-menu {
+	background-color: lightblue;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.header-item, .header-item-login-logout {
+	display: inline-block;
+	background-color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin: 10px 20px;
+}
+.header-item:hover {
+	background-color: black;
+	color: white;
+}
+
+.header-item-login-logout {
+	display: relative;
+	float: right;
+}
+
+.main-camera {
+	/*float: left;*/
+	/*display: absolute;*/
+	margin-bottom: 20px;
+	margin-right: 20px;
+	position: relative;
+	width: 100%;
+	min-width: 700px;
+}
+
+#take-photo {
+	padding: 30px 30px;
+	border-radius: 40px;
+	border-color: blue;
+	border-width: 5px;
+	background-color: transparent;
+	position: absolute;
+	top: 400px;
+	left: 290px;
+	z-index: 11;
+	outline: none;
+}
+#take-photo:hover {
+	background-color: grey;
+}
+#take-photo:active {
+	background-color: black;
+}
+
+
+.side-camera {
+	/*float: left;*/
+	padding-left: 650px;
+	display: inline-block;
+}
+
+footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0px;
+	background-color: #efefef;
+	text-align: center;
+}
+img.frame-img {
+	border: 1px solid black;
+}
+
+img.frame-img:hover {
+	outline: #000000 solid;
+}
+
+img.frame-img:overlay {
+	border: 1px solid black;
+}
+
+.video-container {
+	width: 640px;
+	height: 480px;
+	position: relative;
+}
+
+video, #frame {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 7;
+}
+
+#frame {
+	z-index: 10;
+}
+.frame-images {
+	margin: 10px 2px;
+}
+.user-images {
+	width: 200px;
+	height: auto;
+	margin: 1px;
+}
+.user-images-gallery {
+	width: 300px;
+	height: auto;
+	margin: 2px;
+}
+.delete-image {
+	width: 20px;
+}
+.errmsg, .message {
+	display: inline-block;
+	background: lightpink;
+	margin-top: 10px;
+}
+.message {
+	background-color: lightgreen;
+}
+form {
+	display: block;
+	text-align: center;
+}
+input {
+	padding: 5px 20px;
+	margin: 8px 0;
+	font-size: 15px;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	outline: none;
+}
+input:focus {
+	background-color: lightblue;
+}
+input[type=submit].login {
+	padding: 10px 40px;
+	background-color: #4CAF50;
+	color: white;
+	margin: 8px 0;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+#upload {
+	padding: 0px;
+	border: none;
+}
+.left {
+	width: 700px;
+	position: absolute;
+}
+.div-image-and-del {
+	float: left;
+}
+
+.comments-block {
+	display: inline;
+	margin: 0px 0px 10px 10px;
+	background: #e1e2e3;
+	padding: 20px 0px 20px 20px;
+	position: relative;
+	border-radius: 3px;
+	max-width: 600px;
+	vertical-align: top;
+	
+}
+/*.comments {
+	max-height: 500px;
+	overflow: scroll;
+	overflow-x: hidden;
+}*/
+.comment-user-name {
+	color: #365899;
+}
+.comment-date {
+	color: #90949c;
+	font-size: 0.7em;
+	margin-bottom: 5px;
+}
+
+.succesive-pages-div {
+	text-align: center;
+	padding: 20px;
+}
+.succesive-pages {
+	background-color: #e1e2e3;
+	color: black;
+	margin: 5px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+.succesive-pages:hover {
+	background-color: black;
+	color: white;
+}
+
+.main-gallery {
+	display: block;
+	text-align: inherit;
+}
+.likes-number-btn {
+	text-align: center;
+}
